@@ -36,6 +36,22 @@ def login():
 
 	Silahkan Pilih : 
 ```
+## menu yang di pilih akan 
+```javascript 
+  pilih = input("\n\tSilahkan Pilih : ")
+    if pilih =="1" :
+       from perhitungan.kalkulator import kalkulator
+       tanya()
+    elif pilih =="2" :
+       from perhitungan.pembayaran_mahasiswa import pembayaran_mahasiswa
+       tanya()
+    elif pilih =="3":
+        from perhitungan.penilaian_mahasiswa import penilaian_mahasiswa
+        tanya()
+    else:
+        exit
+        tanya()
+```
 
 
 
